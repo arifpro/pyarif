@@ -26,10 +26,11 @@
 - chmod +x ./scripts/d_build.sh
 - chmod +x ./scripts/d_run.sh
 - chmod +x ./scripts/d_buildAndRun.sh
+- chmod +x ./scripts/push.sh
 
 ## heroku
 
 - Create heroku app: `heroku create pyarif`
 - Login to Heroku Container Registry: `heroku container:login`
-- Push To Heroku: `heroku container:push web`
+- Push To Heroku: `heroku container:push web -a pyarif`
 - Release To Heroku: `heroku container:release web`

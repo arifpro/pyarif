@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libcurl4-gnutls-dev \
         libexpat1-dev \
         gettext \
+        curl \
         unzip \
         supervisor \
         python3-setuptools \
@@ -29,7 +30,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /var/lib/apt/lists/*
 
 # Upgrade PIP
-RUN pip install pip pipenv --upgrade
+RUN pip install pip GitPython pipenv --upgrade
 
 # sklearn opencv, numpy, and pandas
 RUN pip install scikit-learn opencv-contrib-python numpy pandas
