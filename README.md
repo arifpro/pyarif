@@ -3,6 +3,7 @@
 - file -> save workspace as
 - `pip install pipenv`
 - install jupyter: `pipenv install jupyter --python 3.8`
+- install jupyter: `pipenv install jupyterlab --python 3.8`
 - to activate virtual environment: `pipenv shell`
 - run notebook: `jupyter notebook`
 - create hash pass: `ipython -c "from notebook.auth import passwd; passwd()"`
@@ -23,10 +24,10 @@
 
 ## chmod
 
-- chmod +x ./scripts/d_build.sh
+- chmod +x ./scripts/build.sh
 - chmod +x ./scripts/d_run.sh
 - chmod +x ./scripts/d_buildAndRun.sh
-- chmod +x ./scripts/push.sh
+- chmod +x ./scripts/deploy.sh
 
 ## heroku
 
