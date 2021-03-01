@@ -1,0 +1,1 @@
+docker build -t pyarif -f Dockerfile .
