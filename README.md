@@ -3,13 +3,13 @@ Jupyter notebook and lab
 
 ## Personal
 
-- Notebook: `https://pyarif.herokuapp.com`
-- Lab: `https://pyarif.herokuapp.com/lab`
+- Notebook: https://pyarif.herokuapp.com
+- Lab: https://pyarif.herokuapp.com/lab
 
 ## Public
 
-- Notebook: `https://devarif.herokuapp.com`
-- Lab: `https://devarif.herokuapp.com/lab`
+- Notebook: https://devarif.herokuapp.com
+- Lab: https://devarif.herokuapp.com/lab
 - **Password for both:** `1234567890`
 
 ## commands
@@ -48,4 +48,4 @@ Jupyter notebook and lab
 - Create heroku app: `heroku create pyarif`
 - Login to Heroku Container Registry: `heroku container:login`
 - Push To Heroku: `heroku container:push web -a pyarif`
-- Release To Heroku: `heroku container:release web`
+- Release To Heroku: `heroku container:release web -a pyarif`
