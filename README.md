@@ -3,14 +3,14 @@ Jupyter notebook and lab
 
 ## Personal
 
-https://pyarif.herokuapp.com
-https://pyarif.herokuapp.com/lab
+- Notebook: `https://pyarif.herokuapp.com`
+- Lab: `https://pyarif.herokuapp.com/lab`
 
 ## Public
 
-https://devarif.herokuapp.com
-https://devarif.herokuapp.com/lab
-**Password: ** `1234567890`
+- Notebook: `https://devarif.herokuapp.com`
+- Lab: `https://devarif.herokuapp.com/lab`
+- **Password for both:** `1234567890`
 
 ## commands
 
