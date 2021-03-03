@@ -1,4 +1,18 @@
 # pyarif
+Jupyter notebook and lab
+
+## Personal
+
+https://pyarif.herokuapp.com
+https://pyarif.herokuapp.com/lab
+
+## Public
+
+https://devarif.herokuapp.com
+https://devarif.herokuapp.com/lab
+**Password: ** `1234567890`
+
+## commands
 
 - file -> save workspace as
 - `pip install pipenv`
